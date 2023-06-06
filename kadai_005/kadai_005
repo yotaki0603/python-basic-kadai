@@ -1,0 +1,10 @@
+#台形の条件を変数に代入
+upper_side = 10
+lower_side = 20
+height = 5
+
+#面積の値を計算
+area = (upper_side + lower_side) * height / 2
+
+#計算結果を出力
+print(area + "cm2")
