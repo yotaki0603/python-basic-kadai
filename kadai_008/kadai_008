@@ -1,0 +1,18 @@
+#変数varを定義（具体的な値として15を代入）
+var = 15
+
+#条件分岐（3と5の倍数の場合）
+if var % 3 == 0 and var % 5 == 0:
+    print("FizzBuzz")
+
+#条件分岐（3の倍数の場合）
+elif var % 3 == 0:
+    print("Fizz")
+    
+#条件分岐（5の倍数の場合）
+elif var % 5 == 0:
+    print("Buzz")
+
+#条件分岐（それ以外の場合）
+else:
+    print(var)
